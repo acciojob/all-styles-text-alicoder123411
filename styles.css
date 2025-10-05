@@ -1,2 +1,16 @@
-
 /* Your CSS Code here. */
+#box{
+  width: 200px;
+  border-left: 6px solid green;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+#box p:nth-of-type(1){
+	font-size:20px;
+	text-decoration:underline;
+	
+}
